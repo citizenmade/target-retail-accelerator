@@ -1,0 +1,1243 @@
+<?xml version="1.0"?>
+<wp_custom_option_tree>
+  <row>
+    <id>1</id>
+    <item_id>general_default</item_id>
+    <item_title>General</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>1</item_sort>
+  </row>
+  
+  <row>
+    <id>2</id>
+    <item_id>logo</item_id>
+    <item_title>Logo</item_title>
+    <item_desc>Your logo.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>2</item_sort>
+  </row>
+      <row>
+    <id>125</id>
+    <item_id>logo_url</item_id>
+    <item_title>Logo URL</item_title>
+    <item_desc>Enter the url that the logo is linked to</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>125</item_sort>
+  </row>
+    <row>
+    <id>123</id>
+    <item_id>logo_w</item_id>
+    <item_title>Logo Width</item_title>
+    <item_desc>Your logo width in pixels</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>123</item_sort>
+  </row>
+      <row>
+    <id>124</id>
+    <item_id>logo_h</item_id>
+    <item_title>Logo Height</item_title>
+    <item_desc>Your logo height in pixels</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>124</item_sort>
+  </row>
+    <row>
+    <id>3</id>
+    <item_id>favico</item_id>
+    <item_title>Fav Icon</item_title>
+    <item_desc></item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>3</item_sort>
+  </row>
+    <row>
+    <id>4</id>
+    <item_id>bg_image</item_id>
+    <item_title>Choose Background Image</item_title>
+    <item_desc></item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>4</item_sort>
+  </row>
+      <row>
+    <id>126</id>
+    <item_id>bg_image_w</item_id>
+    <item_title>Background Image Width</item_title>
+    <item_desc>in pixels</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>126</item_sort>
+  </row>
+        <row>
+    <id>127</id>
+    <item_id>bg_image_h</item_id>
+    <item_title>Background Image Height</item_title>
+    <item_desc>in pixels</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>127</item_sort>
+  </row>
+      <row>
+    <id>128</id>
+    <item_id>bg_image_r</item_id>
+    <item_title>Select repeat image option</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>repeat,repeat-x,repeat-y,no-repeat</item_options>
+    <item_sort>128</item_sort>
+  </row>
+   <row>
+    <id>129</id>
+    <item_id>bg_image_p</item_id>
+    <item_title>Select image position</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>left top,left center,left bottom,right top,right center,right bottom,center top,center center,center bottom</item_options>
+    <item_sort>129</item_sort>
+  </row>
+    <row>
+    <id>106</id>
+    <item_id>blog</item_id>
+    <item_title>Blog settings</item_title>
+    <item_desc>Blog settings</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>106</item_sort>
+  </row>
+      <row>
+    <id>5</id>
+    <item_id>show_search</item_id>
+    <item_title>Show search on blog</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>5</item_sort>
+  </row>
+  <row>
+    <id>107</id>
+    <item_id>show_inset</item_id>
+    <item_title>Enable inset blog</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>107</item_sort>
+  </row>
+    <row>
+    <id>108</id>
+    <item_id>blog_exce</item_id>
+    <item_title>Blog excerpt length</item_title>
+    <item_desc>default : 100</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>108</item_sort>
+  </row>
+  <row>
+    <id>6</id>
+    <item_id>theme_skin</item_id>
+    <item_title>Theme Skin</item_title>
+    <item_desc>Choosing "Custom" allows you to change the colors of the theme.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Agency, Fashion, Real Estate, Restaurant, Custom</item_options>
+    <item_sort>6</item_sort>
+  </row>
+    <row>
+    <id>7</id>
+    <item_id>theme_desc</item_id>
+    <item_title>Customizing your theme</item_title>
+    <item_desc>If you want the following colors on the theme choose "Custom" from above field.</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>7</item_sort>
+  </row>
+    <row>
+    <id>8</id>
+    <item_id>theme_body_color</item_id>
+    <item_title>Theme Custom - Body Color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>8</item_sort>
+  </row>
+      <row>
+    <id>134</id>
+    <item_id>theme_body_bgcolor</item_id>
+    <item_title>Theme Custom - Body Background Color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>134</item_sort>
+  </row>
+    <row>
+    <id>9</id>
+    <item_id>theme_grid</item_id>
+    <item_title>Theme Custom - enable grid on menu &#38; lists</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>9</item_sort>
+  </row>
+      <row>
+    <id>10</id>
+    <item_id>theme_grid2</item_id>
+    <item_title>Theme Custom - enable grid on page header</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>10</item_sort>
+  </row>
+  <row>
+    <id>11</id>
+    <item_id>theme_color_1</item_id>
+    <item_title>Theme Custom - Menu &#38;Lists text color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>11</item_sort>
+  </row>
+    <row>
+    <id>12</id>
+    <item_id>theme_color_2</item_id>
+    <item_title>Theme Custom - Menu &#38;Lists text-hover color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>12</item_sort>
+  </row>
+      <row>
+    <id>13</id>
+    <item_id>theme_color_3</item_id>
+    <item_title>Theme Custom - Menu &#38;Lists Background color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>13</item_sort>
+  </row>
+  <row>
+    <id>14</id>
+    <item_id>theme_color_4</item_id>
+    <item_title>Theme Custom - Menu &#38;Lists Hover-Background color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>14</item_sort>
+  </row>
+    <row>
+    <id>122</id>
+    <item_id>phead_color</item_id>
+    <item_title>Page Header Text Color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>122</item_sort>
+  </row>
+      <row>
+    <id>132</id>
+    <item_id>phead_bgcolor</item_id>
+    <item_title>Page Header Background Color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>132</item_sort>
+  </row>
+     <row>
+    <id>133</id>
+    <item_id>pshead_bgcolor</item_id>
+    <item_title>Page Slider Background Color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>133</item_sort>
+  </row>
+    <row>
+    <id>15</id>
+    <item_id>homepage</item_id>
+    <item_title>Homepage</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>15</item_sort>
+  </row>
+  <row>
+    <id>16</id>
+    <item_id>home_msg</item_id>
+    <item_title>Homepage Message</item_title>
+    <item_desc>Leave empty it you don't want to display any message</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>16</item_sort>
+  </row>
+   <row>
+    <id>109</id>
+    <item_id>choose_menu</item_id>
+    <item_title>Enter the name of the menu - for offline theme</item_title>
+    <item_desc>just in case you want to use a theme switcher plugin</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>109</item_sort>
+  </row>
+   <row>
+    <id>137</id>
+    <item_id>choose_front_page</item_id>
+    <item_title>Enter the content of the Front page - for offline theme</item_title>
+    <item_desc>leave empty to display default Front page content</item_desc>
+    <item_type>textarea</item_type>
+    <item_options></item_options>
+    <item_sort>137</item_sort>
+  </row>
+     <row>
+    <id>130</id>
+    <item_id>choose_menu_transition</item_id>
+    <item_title>Choose menu transition</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>fade,pop,flip,turn,flow,slidefade,slide,slideup,slidedown</item_options>
+    <item_sort>130</item_sort>
+  </row>
+  <row>
+    <id>131</id>
+    <item_id>choose_menu_ajax</item_id>
+    <item_title> Choose menu data ajax</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>true,false</item_options>
+    <item_sort>131</item_sort>
+  </row>
+        <row>
+    <id>17</id>
+    <item_id>hide_social</item_id>
+    <item_title>Hide Social Media Icons</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>17</item_sort>
+  </row>
+    <row>
+    <id>18</id>
+    <item_id>hide_slider</item_id>
+    <item_title>Hide Homepage Slider</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>18</item_sort>
+  </row>
+   <row>
+    <id>19</id>
+    <item_id>body_slider</item_id>
+    <item_title>Slider</item_title>
+    <item_desc>Slider Options</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>19</item_sort>
+  </row>
+  <row>
+    <id>20</id>
+    <item_id>home_slider</item_id>
+    <item_title>Homepage Slider</item_title>
+    <item_desc>Choose your our images</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>20</item_sort>
+  </row>
+  <row>
+    <id>21</id>
+    <item_id>loader</item_id>
+    <item_title>Loader</item_title>
+    <item_desc>Select slider loader</item_desc>
+    <item_type>select</item_type>
+    <item_options>bar,pie,none</item_options>
+    <item_sort>21</item_sort>
+  </row>
+    <row>
+    <id>22</id>
+    <item_id>navigation</item_id>
+    <item_title>Show navigation</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>22</item_sort>
+  </row>
+    <row>
+    <id>23</id>
+    <item_id>navigationHover</item_id>
+    <item_title>Show navigation on hover</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>23</item_sort>
+  </row>
+    <row>
+    <id>24</id>
+    <item_id>effect</item_id>
+    <item_title>Choose slider effect</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>random,simpleFade,curtainTopLeft,curtainTopRight,curtainBottomLeft,curtainBottomRight,curtainSliceLeft,curtainSliceRight,blindCurtainTopLeft,blindCurtainTopRight,blindCurtainBottomLeft,blindCurtainBottomRight,blindCurtainSliceBottom,blindCurtainSliceTop,stampede,mosaic,mosaicReverse,mosaicRandom,mosaicSpiral,mosaicSpiralReverse,topLeftBottomRight,bottomRightTopLeft,bottomLeftTopRight,bottomLeftTopRight,scrollLeft,scrollRight,scrollHorz,scrollBottom,scrollTop</item_options>
+    <item_sort>24</item_sort>
+  </row>
+     <row>
+    <id>25</id>
+    <item_id>easing</item_id>
+    <item_title>Choose slider easing</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>jswing,easeInQuad,easeOutQuad,easeInOutQuad,easeInCubic,easeOutCubic,easeInOutCubic,easeInQuart,easeOutQuart,easeInOutQuart,easeInSine,easeOutSine,easeInOutSine,easeInExpo,easeOutExpo,easeInOutExpo,easeInQuint,easeOutQuint,easeInOutQuint,easeInCirc,easeOutCirc,easeInOutCirc,easeInElastic,easeOutElastic,easeInOutElastic,easeInBack,easeOutBack,easeInOutBack,easeInBounce,easeOutBounce,easeInOutBounce</item_options>
+  <item_sort>25</item_sort>
+  </row>
+    <row>
+    <id>26</id>
+    <item_id>cols</item_id>
+    <item_title>Enter columns number</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>26</item_sort>
+  </row>
+      <row>
+    <id>27</id>
+    <item_id>rows</item_id>
+    <item_title>Enter rows number</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>27</item_sort>
+  </row>
+      <row>
+    <id>28</id>
+    <item_id>portrait</item_id>
+    <item_title>Select portrait</item_title>
+    <item_desc>Select true if you don't want your images cropped</item_desc>
+    <item_type>select</item_type>
+    <item_options>true,false</item_options>
+    <item_sort>28</item_sort>
+  </row>
+      <row>
+    <id>29</id>
+    <item_id>time</item_id>
+    <item_title>Sliding Time</item_title>
+    <item_desc>milliseconds between the end of the sliding effect and the start of the nex one</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>29</item_sort>
+  </row>
+      <row>
+    <id>30</id>
+    <item_id>trans</item_id>
+    <item_title>Transition time</item_title>
+    <item_desc>length of the sliding effect in milliseconds</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>30</item_sort>
+  </row>
+  
+        <row>
+    <id>110</id>
+    <item_id>slider_width</item_id>
+    <item_title>Slider Width</item_title>
+    <item_desc> in pixels</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>110</item_sort>
+  </row>
+        <row>
+    <id>111</id>
+    <item_id>slider_height</item_id>
+    <item_title>Slider Height</item_title>
+    <item_desc>in pixels</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>111</item_sort>
+  </row>
+  
+
+  <row>
+    <id>31</id>
+    <item_id>footer</item_id>
+    <item_title>Footer</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>31</item_sort>
+  </row>
+   <row>
+    <id>32</id>
+    <item_id>footer1</item_id>
+    <item_title>Footer1</item_title>
+    <item_desc>Footer 1</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>32</item_sort>
+  </row>
+<row>
+    <id>33</id>
+    <item_id>hide1</item_id>
+    <item_title>Hide this from footer</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>33</item_sort>
+  </row>
+  <row>
+    <id>34</id>
+    <item_id>footer_icon1</item_id>
+    <item_title>Choose Icon</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>address-book,apartments,balloons,brush,brush2,calendar,calendar2,camera,car,cell,cell2,cell3,chair,chat,chat2,closed,dribble,eye,facebook,film,flag,footprint,footprints,globe,home,home2,icecream,key,like,mail,mail2,map,map-marker,monitor,mouse,movie,movie-camera,music,paint-brush,pen,pencil,phone,phone2,phone3,photos,photos2,plane,plate,popsicle,presentation,rss,run,search,sign,table,twitter,twitter2,users,v-card,walk,wine,wine2,wordpress</item_options>
+    <item_sort>34</item_sort>
+  </row>
+    <row>
+    <id>35</id>
+    <item_id>footer_name1</item_id>
+    <item_title>Footer column1 name</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>35</item_sort>
+  </row>
+    <row>
+    <id>36</id>
+    <item_id>footer_link1</item_id>
+    <item_title>Link</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>37</item_sort>
+  </row>
+  
+     <row>
+    <id>38</id>
+    <item_id>Footer2</item_id>
+    <item_title>Footer2</item_title>
+    <item_desc>Footer 2</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>38</item_sort>
+  </row>
+   <row>
+      <id>39</id>
+    <item_id>hide2</item_id>
+    <item_title>Hide this from footer</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>39</item_sort>
+  </row>
+  <row>
+    <id>40</id>
+    <item_id>footer_icon2</item_id>
+    <item_title>Choose Icon</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>address-book,apartments,balloons,brush,brush2,calendar,calendar2,camera,car,cell,cell2,cell3,chair,chat,chat2,closed,dribble,eye,facebook,film,flag,footprint,footprints,globe,home,home2,icecream,key,like,mail,mail2,map,map-marker,monitor,mouse,movie,movie-camera,music,paint-brush,pen,pencil,phone,phone2,phone3,photos,photos2,plane,plate,popsicle,presentation,rss,run,search,sign,table,twitter,twitter2,users,v-card,walk,wine,wine2,wordpress</item_options>
+    <item_sort>40</item_sort>
+  </row>
+    <row>
+    <id>41</id>
+    <item_id>footer_name2</item_id>
+    <item_title>Footer column2 name</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>41</item_sort>
+  </row>
+    <row>
+    <id>42</id>
+    <item_id>footer_link2</item_id>
+    <item_title>Link</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>42</item_sort>
+  </row>
+  
+     <row>
+    <id>43</id>
+    <item_id>Footer3</item_id>
+    <item_title>Footer3</item_title>
+    <item_desc>Footer 3</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>43</item_sort>
+  </row> 
+  <row>
+  	   <id>44</id>
+    <item_id>hide3</item_id>
+    <item_title>Hide this from footer</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>44</item_sort>
+  </row>
+  <row>
+    <id>45</id>
+    <item_id>footer_icon3</item_id>
+    <item_title>Choose Icon</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>address-book,apartments,balloons,brush,brush2,calendar,calendar2,camera,car,cell,cell2,cell3,chair,chat,chat2,closed,dribble,eye,facebook,film,flag,footprint,footprints,globe,home,home2,icecream,key,like,mail,mail2,map,map-marker,monitor,mouse,movie,movie-camera,music,paint-brush,pen,pencil,phone,phone2,phone3,photos,photos2,plane,plate,popsicle,presentation,rss,run,search,sign,table,twitter,twitter2,users,v-card,walk,wine,wine2,wordpress</item_options>
+    <item_sort>45</item_sort>
+  </row>
+    <row>
+    <id>46</id>
+    <item_id>footer_name3</item_id>
+    <item_title>Footer column3 name</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>46</item_sort>
+  </row>
+    <row>
+    <id>47</id>
+    <item_id>footer_link3</item_id>
+    <item_title>Link</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>47</item_sort>
+  </row>
+  
+  
+  
+     <row>
+    <id>48</id>
+    <item_id>Footer 3</item_id>
+    <item_title>Footer 3</item_title>
+    <item_desc>Footer 4</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>48</item_sort>
+  </row>
+   <row>
+  	   <id>49</id>
+    <item_id>hide4</item_id>
+    <item_title>Hide this from footer</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>49</item_sort>
+  </row>
+  <row>
+    <id>50</id>
+    <item_id>footer_icon4</item_id>
+    <item_title>Choose Icon</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>address-book,apartments,balloons,brush,brush2,calendar,calendar2,camera,car,cell,cell2,cell3,chair,chat,chat2,closed,dribble,eye,facebook,film,flag,footprint,footprints,globe,home,home2,icecream,key,like,mail,mail2,map,map-marker,monitor,mouse,movie,movie-camera,music,paint-brush,pen,pencil,phone,phone2,phone3,photos,photos2,plane,plate,popsicle,presentation,rss,run,search,sign,table,twitter,twitter2,users,v-card,walk,wine,wine2,wordpress</item_options>
+    <item_sort>50</item_sort>
+  </row>
+    <row>
+    <id>51</id>
+    <item_id>footer_name4</item_id>
+    <item_title>Footer column4 name</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>51</item_sort>
+  </row>
+    <row>
+    <id>52</id>
+    <item_id>footer_link4</item_id>
+    <item_title>Link</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>52</item_sort>
+  </row>
+  <row>
+    <id>53</id>
+    <item_id>social_media_icons</item_id>
+    <item_title>Social Media Icons</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>53</item_sort>
+  </row>
+  <row>
+    <id>54</id>
+    <item_id>sm_icons</item_id>
+    <item_title>Media Icons</item_title>
+    <item_desc>Upload your social media icons here.</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>54</item_sort>
+  </row>
+     <row>
+    <id>55</id>
+    <item_id>font</item_id>
+    <item_title>Choose Fonts</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>55</item_sort>
+  </row>
+    <row>
+    <id>56</id>
+    <item_id>body</item_id>
+    <item_title>Body</item_title>
+    <item_desc>Body Google Fonts</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>56</item_sort>
+  </row>
+    <row>
+    <id>57</id>
+    <item_id>body_font_select</item_id>
+    <item_title>Body</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Aclonica,Allan,Annie Use Your Telescope,Anonymous Pro,Allerta Stencil,Allerta,Amaranth,Anton,Architects Daughter,Arimo,Arvo,Astloch,Bangers,Bentham,Bevan,Bigshot One,Cabin,Cabin Sketch,Calligraffitti,Candal,Cantarell,Cardo,Carter One,Cherry Cream Soda,Chewy,Coda,Coming Soon,Copse,Corben,Cousine,Covered By Your Grace,Crafty Girls,Crimson Text,Crushed,Cuprum,Damion,Dancing Script,Dawning of a New Day,Didact Gothic,Droid Sans,Droid Sans Mono,Droid Serif,EB Garamond,Expletus Sans,Fontdiner Swanky,Francois One,Geo,Goudy Bookletter 1911,Gruppo,Holtwood One SC,Homemade Apple,Inconsolata,Indie Flower,IM Fell DW Pica,IM Fell DW Pica SC,IM Fell Double Pica,IM Fell Double Pica SC,IM Fell English,IM Fell English SC,IM Fell French Canon,IM Fell French Canon SC,IM Fell Great Primer,IM Fell Great Primer SC,Irish Grover,Josefin Sans,Josefin Slab,Judson,Just Another Hand,Just Me Again Down Here,Kenia,Kranky,Kreon,Kristi,Lato,League Script,Lekton,Lobster,Luckiest Guy,Maiden Orange,Mako,Meddon,MedievalSharp,Megrim,Merriweather,Metrophobic,Michroma,Miltonian Tattoo,Miltonian,Monofett,Molengo,Mountains of Christmas,News Cycle,Nobile,Nova Cut,Nova Flat,Nova Mono,Nova Oval,Nova Round,Nova Script,Nova Slim,Nova Square,Neucha,Neuton,OFL Sorts Mill Goudy TT,Old Standard TT,Open Sans,Open Sans Condensed,Orbitron,Oswald,Over the Rainbow,Reenie Beanie,Pacifico,Paytone One,Permanent Marker,Philosopher,Play,PT Sans,PT Sans Caption,PT Sans Narrow,PT Serif,PT Serif Caption,Puritan,Quattrocento,Quattrocento Sans,Radley,Rock Salt,Rokkitt,Schoolbell,Shanti,Sigmar One,Six Caps,Slackey,Smythe,Sniglet,Special Elite,Sue Ellen Francisco,Sunshiney,Swanky and Moo Moo,Syncopate,Tangerine,Terminal Dosis Light,The Girl Next Door,Tinos,Ubuntu,Ultra,Unkempt,UnifrakturCook,UnifrakturMaguntia,Vibur,Vollkorn,VT323,Waiting for the Sunrise,Wallpoet,Walter Turncoat,Yanone Kaffeesatz</item_options>
+    <item_sort>57</item_sort>
+  </row>
+  <row>
+    <id>58</id>
+    <item_id>body_font_weight_select</item_id>
+    <item_title>Body font - weight</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>normal,bold,bolder,lighter,100,200,300,400,500,600,700,800,900</item_options>
+    <item_sort>58</item_sort>
+  </row>
+  <row>
+    <id>59</id>
+    <item_id>body_font_style_select</item_id>
+    <item_title>Body font - style</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>italic</item_options>
+    <item_sort>59</item_sort>
+  </row>
+   <row>
+    <id>121</id>
+    <item_id>body_font_shadow</item_id>
+    <item_title>Body font shadow</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>disable</item_options>
+    <item_sort>121</item_sort>
+  </row>
+   <row>
+    <id>60</id>
+    <item_id>menu</item_id>
+    <item_title>Menu</item_title>
+    <item_desc>Menu Google Fonts</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>60</item_sort>
+  </row>
+      <row>
+    <id>61</id>
+    <item_id>menu_font_select</item_id>
+    <item_title>Menu</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Aclonica,Allan,Annie Use Your Telescope,Anonymous Pro,Allerta Stencil,Allerta,Amaranth,Anton,Architects Daughter,Arimo,Arvo,Astloch,Bangers,Bentham,Bevan,Bigshot One,Cabin,Cabin Sketch,Calligraffitti,Candal,Cantarell,Cardo,Carter One,Cherry Cream Soda,Chewy,Coda,Coming Soon,Copse,Corben,Cousine,Covered By Your Grace,Crafty Girls,Crimson Text,Crushed,Cuprum,Damion,Dancing Script,Dawning of a New Day,Didact Gothic,Droid Sans,Droid Sans Mono,Droid Serif,EB Garamond,Expletus Sans,Fontdiner Swanky,Francois One,Geo,Goudy Bookletter 1911,Gruppo,Holtwood One SC,Homemade Apple,Inconsolata,Indie Flower,IM Fell DW Pica,IM Fell DW Pica SC,IM Fell Double Pica,IM Fell Double Pica SC,IM Fell English,IM Fell English SC,IM Fell French Canon,IM Fell French Canon SC,IM Fell Great Primer,IM Fell Great Primer SC,Irish Grover,Josefin Sans,Josefin Slab,Judson,Just Another Hand,Just Me Again Down Here,Kenia,Kranky,Kreon,Kristi,Lato,League Script,Lekton,Lobster,Luckiest Guy,Maiden Orange,Mako,Meddon,MedievalSharp,Megrim,Merriweather,Metrophobic,Michroma,Miltonian Tattoo,Miltonian,Monofett,Molengo,Mountains of Christmas,News Cycle,Nobile,Nova Cut,Nova Flat,Nova Mono,Nova Oval,Nova Round,Nova Script,Nova Slim,Nova Square,Neucha,Neuton,OFL Sorts Mill Goudy TT,Old Standard TT,Open Sans,Open Sans Condensed,Orbitron,Oswald,Over the Rainbow,Reenie Beanie,Pacifico,Paytone One,Permanent Marker,Philosopher,Play,PT Sans,PT Sans Caption,PT Sans Narrow,PT Serif,PT Serif Caption,Puritan,Quattrocento,Quattrocento Sans,Radley,Rock Salt,Rokkitt,Schoolbell,Shanti,Sigmar One,Six Caps,Slackey,Smythe,Sniglet,Special Elite,Sue Ellen Francisco,Sunshiney,Swanky and Moo Moo,Syncopate,Tangerine,Terminal Dosis Light,The Girl Next Door,Tinos,Ubuntu,Ultra,Unkempt,UnifrakturCook,UnifrakturMaguntia,Vibur,Vollkorn,VT323,Waiting for the Sunrise,Wallpoet,Walter Turncoat,Yanone Kaffeesatz</item_options>
+    <item_sort>61</item_sort>
+  </row>
+  <row>
+    <id>62</id>
+    <item_id>menu_font_weight_select</item_id>
+    <item_title>Menu font - weight</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>normal,bold,bolder,lighter,100,200,300,400,500,600,700,800,900</item_options>
+    <item_sort>62</item_sort>
+  </row>
+<row>
+    <id>63</id>
+    <item_id>menu_font_style_select</item_id>
+    <item_title>Menu font - style</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>italic</item_options>
+    <item_sort>63</item_sort>
+  </row>
+   <row>
+    <id>64</id>
+    <item_id>h1</item_id>
+    <item_title>h1</item_title>
+    <item_desc>Heading1 Google Fonts</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>64</item_sort>
+  </row>
+      <row>
+    <id>65</id>
+    <item_id>h1_font_select</item_id>
+    <item_title>Heading1</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Aclonica,Allan,Annie Use Your Telescope,Anonymous Pro,Allerta Stencil,Allerta,Amaranth,Anton,Architects Daughter,Arimo,Arvo,Astloch,Bangers,Bentham,Bevan,Bigshot One,Cabin,Cabin Sketch,Calligraffitti,Candal,Cantarell,Cardo,Carter One,Cherry Cream Soda,Chewy,Coda,Coming Soon,Copse,Corben,Cousine,Covered By Your Grace,Crafty Girls,Crimson Text,Crushed,Cuprum,Damion,Dancing Script,Dawning of a New Day,Didact Gothic,Droid Sans,Droid Sans Mono,Droid Serif,EB Garamond,Expletus Sans,Fontdiner Swanky,Francois One,Geo,Goudy Bookletter 1911,Gruppo,Holtwood One SC,Homemade Apple,Inconsolata,Indie Flower,IM Fell DW Pica,IM Fell DW Pica SC,IM Fell Double Pica,IM Fell Double Pica SC,IM Fell English,IM Fell English SC,IM Fell French Canon,IM Fell French Canon SC,IM Fell Great Primer,IM Fell Great Primer SC,Irish Grover,Josefin Sans,Josefin Slab,Judson,Just Another Hand,Just Me Again Down Here,Kenia,Kranky,Kreon,Kristi,Lato,League Script,Lekton,Lobster,Luckiest Guy,Maiden Orange,Mako,Meddon,MedievalSharp,Megrim,Merriweather,Metrophobic,Michroma,Miltonian Tattoo,Miltonian,Monofett,Molengo,Mountains of Christmas,News Cycle,Nobile,Nova Cut,Nova Flat,Nova Mono,Nova Oval,Nova Round,Nova Script,Nova Slim,Nova Square,Neucha,Neuton,OFL Sorts Mill Goudy TT,Old Standard TT,Open Sans,Open Sans Condensed,Orbitron,Oswald,Over the Rainbow,Reenie Beanie,Pacifico,Paytone One,Permanent Marker,Philosopher,Play,PT Sans,PT Sans Caption,PT Sans Narrow,PT Serif,PT Serif Caption,Puritan,Quattrocento,Quattrocento Sans,Radley,Rock Salt,Rokkitt,Schoolbell,Shanti,Sigmar One,Six Caps,Slackey,Smythe,Sniglet,Special Elite,Sue Ellen Francisco,Sunshiney,Swanky and Moo Moo,Syncopate,Tangerine,Terminal Dosis Light,The Girl Next Door,Tinos,Ubuntu,Ultra,Unkempt,UnifrakturCook,UnifrakturMaguntia,Vibur,Vollkorn,VT323,Waiting for the Sunrise,Wallpoet,Walter Turncoat,Yanone Kaffeesatz</item_options>
+    <item_sort>65</item_sort>
+  </row>
+  <row>
+    <id>66</id>
+    <item_id>h1_font_weight_select</item_id>
+    <item_title>Heading1 font - weight</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>normal,bold,bolder,lighter,100,200,300,400,500,600,700,800,900</item_options>
+    <item_sort>66</item_sort>
+  </row>
+<row>
+    <id>67</id>
+    <item_id>h1_font_style_select</item_id>
+    <item_title>Heading1 font - style</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>italic</item_options>
+    <item_sort>67</item_sort>
+  </row>
+   <row>
+    <id>68</id>
+    <item_id>h2</item_id>
+    <item_title>h2</item_title>
+    <item_desc>Heading2 Google Fonts</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>68</item_sort>
+  </row>
+      <row>
+    <id>69</id>
+    <item_id>h2_font_select</item_id>
+    <item_title>Heading2</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Aclonica,Allan,Annie Use Your Telescope,Anonymous Pro,Allerta Stencil,Allerta,Amaranth,Anton,Architects Daughter,Arimo,Arvo,Astloch,Bangers,Bentham,Bevan,Bigshot One,Cabin,Cabin Sketch,Calligraffitti,Candal,Cantarell,Cardo,Carter One,Cherry Cream Soda,Chewy,Coda,Coming Soon,Copse,Corben,Cousine,Covered By Your Grace,Crafty Girls,Crimson Text,Crushed,Cuprum,Damion,Dancing Script,Dawning of a New Day,Didact Gothic,Droid Sans,Droid Sans Mono,Droid Serif,EB Garamond,Expletus Sans,Fontdiner Swanky,Francois One,Geo,Goudy Bookletter 1911,Gruppo,Holtwood One SC,Homemade Apple,Inconsolata,Indie Flower,IM Fell DW Pica,IM Fell DW Pica SC,IM Fell Double Pica,IM Fell Double Pica SC,IM Fell English,IM Fell English SC,IM Fell French Canon,IM Fell French Canon SC,IM Fell Great Primer,IM Fell Great Primer SC,Irish Grover,Josefin Sans,Josefin Slab,Judson,Just Another Hand,Just Me Again Down Here,Kenia,Kranky,Kreon,Kristi,Lato,League Script,Lekton,Lobster,Luckiest Guy,Maiden Orange,Mako,Meddon,MedievalSharp,Megrim,Merriweather,Metrophobic,Michroma,Miltonian Tattoo,Miltonian,Monofett,Molengo,Mountains of Christmas,News Cycle,Nobile,Nova Cut,Nova Flat,Nova Mono,Nova Oval,Nova Round,Nova Script,Nova Slim,Nova Square,Neucha,Neuton,OFL Sorts Mill Goudy TT,Old Standard TT,Open Sans,Open Sans Condensed,Orbitron,Oswald,Over the Rainbow,Reenie Beanie,Pacifico,Paytone One,Permanent Marker,Philosopher,Play,PT Sans,PT Sans Caption,PT Sans Narrow,PT Serif,PT Serif Caption,Puritan,Quattrocento,Quattrocento Sans,Radley,Rock Salt,Rokkitt,Schoolbell,Shanti,Sigmar One,Six Caps,Slackey,Smythe,Sniglet,Special Elite,Sue Ellen Francisco,Sunshiney,Swanky and Moo Moo,Syncopate,Tangerine,Terminal Dosis Light,The Girl Next Door,Tinos,Ubuntu,Ultra,Unkempt,UnifrakturCook,UnifrakturMaguntia,Vibur,Vollkorn,VT323,Waiting for the Sunrise,Wallpoet,Walter Turncoat,Yanone Kaffeesatz</item_options>
+    <item_sort>69</item_sort>
+  </row>
+  <row>
+    <id>70</id>
+    <item_id>h2_font_weight_select</item_id>
+    <item_title>Heading2 font - weight</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>normal,bold,bolder,lighter,100,200,300,400,500,600,700,800,900</item_options>
+    <item_sort>70</item_sort>
+  </row>
+<row>
+    <id>71</id>
+    <item_id>h2_font_style_select</item_id>
+    <item_title>Heading2 font - style</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>italic</item_options>
+    <item_sort>71</item_sort>
+  </row>
+   <row>
+    <id>72</id>
+    <item_id>h3</item_id>
+    <item_title>h3</item_title>
+    <item_desc>Heading3 Google Fonts</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>72</item_sort>
+  </row>
+      <row>
+    <id>73</id>
+    <item_id>h3_font_select</item_id>
+    <item_title>Heading3</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Aclonica,Allan,Annie Use Your Telescope,Anonymous Pro,Allerta Stencil,Allerta,Amaranth,Anton,Architects Daughter,Arimo,Arvo,Astloch,Bangers,Bentham,Bevan,Bigshot One,Cabin,Cabin Sketch,Calligraffitti,Candal,Cantarell,Cardo,Carter One,Cherry Cream Soda,Chewy,Coda,Coming Soon,Copse,Corben,Cousine,Covered By Your Grace,Crafty Girls,Crimson Text,Crushed,Cuprum,Damion,Dancing Script,Dawning of a New Day,Didact Gothic,Droid Sans,Droid Sans Mono,Droid Serif,EB Garamond,Expletus Sans,Fontdiner Swanky,Francois One,Geo,Goudy Bookletter 1911,Gruppo,Holtwood One SC,Homemade Apple,Inconsolata,Indie Flower,IM Fell DW Pica,IM Fell DW Pica SC,IM Fell Double Pica,IM Fell Double Pica SC,IM Fell English,IM Fell English SC,IM Fell French Canon,IM Fell French Canon SC,IM Fell Great Primer,IM Fell Great Primer SC,Irish Grover,Josefin Sans,Josefin Slab,Judson,Just Another Hand,Just Me Again Down Here,Kenia,Kranky,Kreon,Kristi,Lato,League Script,Lekton,Lobster,Luckiest Guy,Maiden Orange,Mako,Meddon,MedievalSharp,Megrim,Merriweather,Metrophobic,Michroma,Miltonian Tattoo,Miltonian,Monofett,Molengo,Mountains of Christmas,News Cycle,Nobile,Nova Cut,Nova Flat,Nova Mono,Nova Oval,Nova Round,Nova Script,Nova Slim,Nova Square,Neucha,Neuton,OFL Sorts Mill Goudy TT,Old Standard TT,Open Sans,Open Sans Condensed,Orbitron,Oswald,Over the Rainbow,Reenie Beanie,Pacifico,Paytone One,Permanent Marker,Philosopher,Play,PT Sans,PT Sans Caption,PT Sans Narrow,PT Serif,PT Serif Caption,Puritan,Quattrocento,Quattrocento Sans,Radley,Rock Salt,Rokkitt,Schoolbell,Shanti,Sigmar One,Six Caps,Slackey,Smythe,Sniglet,Special Elite,Sue Ellen Francisco,Sunshiney,Swanky and Moo Moo,Syncopate,Tangerine,Terminal Dosis Light,The Girl Next Door,Tinos,Ubuntu,Ultra,Unkempt,UnifrakturCook,UnifrakturMaguntia,Vibur,Vollkorn,VT323,Waiting for the Sunrise,Wallpoet,Walter Turncoat,Yanone Kaffeesatz</item_options>
+    <item_sort>73</item_sort>
+  </row>
+  <row>
+    <id>74</id>
+    <item_id>h3_font_weight_select</item_id>
+    <item_title>Heading3 font - weight</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>normal,bold,bolder,lighter,100,200,300,400,500,600,700,800,900</item_options>
+    <item_sort>74</item_sort>
+  </row>
+<row>
+    <id>75</id>
+    <item_id>h3_font_style_select</item_id>
+    <item_title>Heading3 font - style</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>italic</item_options>
+    <item_sort>75</item_sort>
+  </row>
+  
+  
+   <row>
+    <id>76</id>
+    <item_id>h4</item_id>
+    <item_title>Heading4</item_title>
+    <item_desc>Heading4 Google Fonts</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>76</item_sort>
+  </row>
+      <row>
+    <id>77</id>
+    <item_id>h4_font_select</item_id>
+    <item_title>Heading4</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Aclonica,Allan,Annie Use Your Telescope,Anonymous Pro,Allerta Stencil,Allerta,Amaranth,Anton,Architects Daughter,Arimo,Arvo,Astloch,Bangers,Bentham,Bevan,Bigshot One,Cabin,Cabin Sketch,Calligraffitti,Candal,Cantarell,Cardo,Carter One,Cherry Cream Soda,Chewy,Coda,Coming Soon,Copse,Corben,Cousine,Covered By Your Grace,Crafty Girls,Crimson Text,Crushed,Cuprum,Damion,Dancing Script,Dawning of a New Day,Didact Gothic,Droid Sans,Droid Sans Mono,Droid Serif,EB Garamond,Expletus Sans,Fontdiner Swanky,Francois One,Geo,Goudy Bookletter 1911,Gruppo,Holtwood One SC,Homemade Apple,Inconsolata,Indie Flower,IM Fell DW Pica,IM Fell DW Pica SC,IM Fell Double Pica,IM Fell Double Pica SC,IM Fell English,IM Fell English SC,IM Fell French Canon,IM Fell French Canon SC,IM Fell Great Primer,IM Fell Great Primer SC,Irish Grover,Josefin Sans,Josefin Slab,Judson,Just Another Hand,Just Me Again Down Here,Kenia,Kranky,Kreon,Kristi,Lato,League Script,Lekton,Lobster,Luckiest Guy,Maiden Orange,Mako,Meddon,MedievalSharp,Megrim,Merriweather,Metrophobic,Michroma,Miltonian Tattoo,Miltonian,Monofett,Molengo,Mountains of Christmas,News Cycle,Nobile,Nova Cut,Nova Flat,Nova Mono,Nova Oval,Nova Round,Nova Script,Nova Slim,Nova Square,Neucha,Neuton,OFL Sorts Mill Goudy TT,Old Standard TT,Open Sans,Open Sans Condensed,Orbitron,Oswald,Over the Rainbow,Reenie Beanie,Pacifico,Paytone One,Permanent Marker,Philosopher,Play,PT Sans,PT Sans Caption,PT Sans Narrow,PT Serif,PT Serif Caption,Puritan,Quattrocento,Quattrocento Sans,Radley,Rock Salt,Rokkitt,Schoolbell,Shanti,Sigmar One,Six Caps,Slackey,Smythe,Sniglet,Special Elite,Sue Ellen Francisco,Sunshiney,Swanky and Moo Moo,Syncopate,Tangerine,Terminal Dosis Light,The Girl Next Door,Tinos,Ubuntu,Ultra,Unkempt,UnifrakturCook,UnifrakturMaguntia,Vibur,Vollkorn,VT323,Waiting for the Sunrise,Wallpoet,Walter Turncoat,Yanone Kaffeesatz</item_options>
+    <item_sort>77</item_sort>
+  </row>
+  <row>
+    <id>78</id>
+    <item_id>h4_font_weight_select</item_id>
+    <item_title>Heading4 font - weight</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>normal,bold,bolder,lighter,100,200,300,400,500,600,700,800,900</item_options>
+    <item_sort>78</item_sort>
+  </row>
+<row>
+    <id>79</id>
+    <item_id>h4_font_style_select</item_id>
+    <item_title>Heading4 font - style</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>italic</item_options>
+    <item_sort>79</item_sort>
+  </row>
+  
+  
+   <row>
+    <id>80</id>
+    <item_id>h5</item_id>
+    <item_title>Heading5</item_title>
+    <item_desc>Heading5 Google Fonts</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>80</item_sort>
+  </row>
+      <row>
+    <id>81</id>
+    <item_id>h5_font_select</item_id>
+    <item_title>Heading5</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Aclonica,Allan,Annie Use Your Telescope,Anonymous Pro,Allerta Stencil,Allerta,Amaranth,Anton,Architects Daughter,Arimo,Arvo,Astloch,Bangers,Bentham,Bevan,Bigshot One,Cabin,Cabin Sketch,Calligraffitti,Candal,Cantarell,Cardo,Carter One,Cherry Cream Soda,Chewy,Coda,Coming Soon,Copse,Corben,Cousine,Covered By Your Grace,Crafty Girls,Crimson Text,Crushed,Cuprum,Damion,Dancing Script,Dawning of a New Day,Didact Gothic,Droid Sans,Droid Sans Mono,Droid Serif,EB Garamond,Expletus Sans,Fontdiner Swanky,Francois One,Geo,Goudy Bookletter 1911,Gruppo,Holtwood One SC,Homemade Apple,Inconsolata,Indie Flower,IM Fell DW Pica,IM Fell DW Pica SC,IM Fell Double Pica,IM Fell Double Pica SC,IM Fell English,IM Fell English SC,IM Fell French Canon,IM Fell French Canon SC,IM Fell Great Primer,IM Fell Great Primer SC,Irish Grover,Josefin Sans,Josefin Slab,Judson,Just Another Hand,Just Me Again Down Here,Kenia,Kranky,Kreon,Kristi,Lato,League Script,Lekton,Lobster,Luckiest Guy,Maiden Orange,Mako,Meddon,MedievalSharp,Megrim,Merriweather,Metrophobic,Michroma,Miltonian Tattoo,Miltonian,Monofett,Molengo,Mountains of Christmas,News Cycle,Nobile,Nova Cut,Nova Flat,Nova Mono,Nova Oval,Nova Round,Nova Script,Nova Slim,Nova Square,Neucha,Neuton,OFL Sorts Mill Goudy TT,Old Standard TT,Open Sans,Open Sans Condensed,Orbitron,Oswald,Over the Rainbow,Reenie Beanie,Pacifico,Paytone One,Permanent Marker,Philosopher,Play,PT Sans,PT Sans Caption,PT Sans Narrow,PT Serif,PT Serif Caption,Puritan,Quattrocento,Quattrocento Sans,Radley,Rock Salt,Rokkitt,Schoolbell,Shanti,Sigmar One,Six Caps,Slackey,Smythe,Sniglet,Special Elite,Sue Ellen Francisco,Sunshiney,Swanky and Moo Moo,Syncopate,Tangerine,Terminal Dosis Light,The Girl Next Door,Tinos,Ubuntu,Ultra,Unkempt,UnifrakturCook,UnifrakturMaguntia,Vibur,Vollkorn,VT323,Waiting for the Sunrise,Wallpoet,Walter Turncoat,Yanone Kaffeesatz</item_options>
+    <item_sort>81</item_sort>
+  </row>
+  <row>
+    <id>82</id>
+    <item_id>h5_font_weight_select</item_id>
+    <item_title>Heading5 font - weight</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>normal,bold,bolder,lighter,100,200,300,400,500,600,700,800,900</item_options>
+    <item_sort>82</item_sort>
+  </row>
+<row>
+    <id>83</id>
+    <item_id>h5_font_style_select</item_id>
+    <item_title>Heading5 font - style</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>italic</item_options>
+    <item_sort>83</item_sort>
+  </row>
+   <row>
+    <id>84</id>
+    <item_id>Heading6</item_id>
+    <item_title>Heading6</item_title>
+    <item_desc>Heading6 Google Fonts</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>84</item_sort>
+  </row>
+      <row>
+    <id>85</id>
+    <item_id>h6_font_select</item_id>
+    <item_title>Heading6</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Aclonica,Allan,Annie Use Your Telescope,Anonymous Pro,Allerta Stencil,Allerta,Amaranth,Anton,Architects Daughter,Arimo,Arvo,Astloch,Bangers,Bentham,Bevan,Bigshot One,Cabin,Cabin Sketch,Calligraffitti,Candal,Cantarell,Cardo,Carter One,Cherry Cream Soda,Chewy,Coda,Coming Soon,Copse,Corben,Cousine,Covered By Your Grace,Crafty Girls,Crimson Text,Crushed,Cuprum,Damion,Dancing Script,Dawning of a New Day,Didact Gothic,Droid Sans,Droid Sans Mono,Droid Serif,EB Garamond,Expletus Sans,Fontdiner Swanky,Francois One,Geo,Goudy Bookletter 1911,Gruppo,Holtwood One SC,Homemade Apple,Inconsolata,Indie Flower,IM Fell DW Pica,IM Fell DW Pica SC,IM Fell Double Pica,IM Fell Double Pica SC,IM Fell English,IM Fell English SC,IM Fell French Canon,IM Fell French Canon SC,IM Fell Great Primer,IM Fell Great Primer SC,Irish Grover,Josefin Sans,Josefin Slab,Judson,Just Another Hand,Just Me Again Down Here,Kenia,Kranky,Kreon,Kristi,Lato,League Script,Lekton,Lobster,Luckiest Guy,Maiden Orange,Mako,Meddon,MedievalSharp,Megrim,Merriweather,Metrophobic,Michroma,Miltonian Tattoo,Miltonian,Monofett,Molengo,Mountains of Christmas,News Cycle,Nobile,Nova Cut,Nova Flat,Nova Mono,Nova Oval,Nova Round,Nova Script,Nova Slim,Nova Square,Neucha,Neuton,OFL Sorts Mill Goudy TT,Old Standard TT,Open Sans,Open Sans Condensed,Orbitron,Oswald,Over the Rainbow,Reenie Beanie,Pacifico,Paytone One,Permanent Marker,Philosopher,Play,PT Sans,PT Sans Caption,PT Sans Narrow,PT Serif,PT Serif Caption,Puritan,Quattrocento,Quattrocento Sans,Radley,Rock Salt,Rokkitt,Schoolbell,Shanti,Sigmar One,Six Caps,Slackey,Smythe,Sniglet,Special Elite,Sue Ellen Francisco,Sunshiney,Swanky and Moo Moo,Syncopate,Tangerine,Terminal Dosis Light,The Girl Next Door,Tinos,Ubuntu,Ultra,Unkempt,UnifrakturCook,UnifrakturMaguntia,Vibur,Vollkorn,VT323,Waiting for the Sunrise,Wallpoet,Walter Turncoat,Yanone Kaffeesatz</item_options>
+    <item_sort>85</item_sort>
+  </row>
+  <row>
+    <id>86</id>
+    <item_id>h6_font_weight_select</item_id>
+    <item_title>Heading6 font - weight</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>normal,bold,bolder,lighter,100,200,300,400,500,600,700,800,900</item_options>
+    <item_sort>86</item_sort>
+  </row>
+<row>
+    <id>87</id>
+    <item_id>h6_font_style_select</item_id>
+    <item_title>Heading6 font - style</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>italic</item_options>
+    <item_sort>87</item_sort>
+  </row>
+  <row>
+    <id>112</id>
+    <item_id>slider_desc</item_id>
+    <item_title>slider_desc</item_title>
+    <item_desc>Slider description</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>112</item_sort>
+  </row>
+      <row>
+    <id>113</id>
+    <item_id>slider_font_select</item_id>
+    <item_title>Slider description</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Aclonica,Allan,Annie Use Your Telescope,Anonymous Pro,Allerta Stencil,Allerta,Amaranth,Anton,Architects Daughter,Arimo,Arvo,Astloch,Bangers,Bentham,Bevan,Bigshot One,Cabin,Cabin Sketch,Calligraffitti,Candal,Cantarell,Cardo,Carter One,Cherry Cream Soda,Chewy,Coda,Coming Soon,Copse,Corben,Cousine,Covered By Your Grace,Crafty Girls,Crimson Text,Crushed,Cuprum,Damion,Dancing Script,Dawning of a New Day,Didact Gothic,Droid Sans,Droid Sans Mono,Droid Serif,EB Garamond,Expletus Sans,Fontdiner Swanky,Francois One,Geo,Goudy Bookletter 1911,Gruppo,Holtwood One SC,Homemade Apple,Inconsolata,Indie Flower,IM Fell DW Pica,IM Fell DW Pica SC,IM Fell Double Pica,IM Fell Double Pica SC,IM Fell English,IM Fell English SC,IM Fell French Canon,IM Fell French Canon SC,IM Fell Great Primer,IM Fell Great Primer SC,Irish Grover,Josefin Sans,Josefin Slab,Judson,Just Another Hand,Just Me Again Down Here,Kenia,Kranky,Kreon,Kristi,Lato,League Script,Lekton,Lobster,Luckiest Guy,Maiden Orange,Mako,Meddon,MedievalSharp,Megrim,Merriweather,Metrophobic,Michroma,Miltonian Tattoo,Miltonian,Monofett,Molengo,Mountains of Christmas,News Cycle,Nobile,Nova Cut,Nova Flat,Nova Mono,Nova Oval,Nova Round,Nova Script,Nova Slim,Nova Square,Neucha,Neuton,OFL Sorts Mill Goudy TT,Old Standard TT,Open Sans,Open Sans Condensed,Orbitron,Oswald,Over the Rainbow,Reenie Beanie,Pacifico,Paytone One,Permanent Marker,Philosopher,Play,PT Sans,PT Sans Caption,PT Sans Narrow,PT Serif,PT Serif Caption,Puritan,Quattrocento,Quattrocento Sans,Radley,Rock Salt,Rokkitt,Schoolbell,Shanti,Sigmar One,Six Caps,Slackey,Smythe,Sniglet,Special Elite,Sue Ellen Francisco,Sunshiney,Swanky and Moo Moo,Syncopate,Tangerine,Terminal Dosis Light,The Girl Next Door,Tinos,Ubuntu,Ultra,Unkempt,UnifrakturCook,UnifrakturMaguntia,Vibur,Vollkorn,VT323,Waiting for the Sunrise,Wallpoet,Walter Turncoat,Yanone Kaffeesatz</item_options>
+    <item_sort>113</item_sort>
+  </row>
+  <row>
+    <id>114</id>
+    <item_id>slider_font_weight_select</item_id>
+    <item_title>Slider description font - weight</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>normal,bold,bolder,lighter,100,200,300,400,500,600,700,800,900</item_options>
+    <item_sort>114</item_sort>
+  </row>
+<row>
+    <id>115</id>
+    <item_id>slider_font_style_select</item_id>
+    <item_title>Slider description font - style</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>italic</item_options>
+    <item_sort>115</item_sort>
+  </row>
+  
+     <row>
+    <id>116</id>
+    <item_id>Page_Header</item_id>
+    <item_title>Page Header</item_title>
+    <item_desc>Page Header</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>116</item_sort>
+  </row>
+      <row>
+    <id>117</id>
+    <item_id>phead_font_select</item_id>
+    <item_title>Page Header</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Aclonica,Allan,Annie Use Your Telescope,Anonymous Pro,Allerta Stencil,Allerta,Amaranth,Anton,Architects Daughter,Arimo,Arvo,Astloch,Bangers,Bentham,Bevan,Bigshot One,Cabin,Cabin Sketch,Calligraffitti,Candal,Cantarell,Cardo,Carter One,Cherry Cream Soda,Chewy,Coda,Coming Soon,Copse,Corben,Cousine,Covered By Your Grace,Crafty Girls,Crimson Text,Crushed,Cuprum,Damion,Dancing Script,Dawning of a New Day,Didact Gothic,Droid Sans,Droid Sans Mono,Droid Serif,EB Garamond,Expletus Sans,Fontdiner Swanky,Francois One,Geo,Goudy Bookletter 1911,Gruppo,Holtwood One SC,Homemade Apple,Inconsolata,Indie Flower,IM Fell DW Pica,IM Fell DW Pica SC,IM Fell Double Pica,IM Fell Double Pica SC,IM Fell English,IM Fell English SC,IM Fell French Canon,IM Fell French Canon SC,IM Fell Great Primer,IM Fell Great Primer SC,Irish Grover,Josefin Sans,Josefin Slab,Judson,Just Another Hand,Just Me Again Down Here,Kenia,Kranky,Kreon,Kristi,Lato,League Script,Lekton,Lobster,Luckiest Guy,Maiden Orange,Mako,Meddon,MedievalSharp,Megrim,Merriweather,Metrophobic,Michroma,Miltonian Tattoo,Miltonian,Monofett,Molengo,Mountains of Christmas,News Cycle,Nobile,Nova Cut,Nova Flat,Nova Mono,Nova Oval,Nova Round,Nova Script,Nova Slim,Nova Square,Neucha,Neuton,OFL Sorts Mill Goudy TT,Old Standard TT,Open Sans,Open Sans Condensed,Orbitron,Oswald,Over the Rainbow,Reenie Beanie,Pacifico,Paytone One,Permanent Marker,Philosopher,Play,PT Sans,PT Sans Caption,PT Sans Narrow,PT Serif,PT Serif Caption,Puritan,Quattrocento,Quattrocento Sans,Radley,Rock Salt,Rokkitt,Schoolbell,Shanti,Sigmar One,Six Caps,Slackey,Smythe,Sniglet,Special Elite,Sue Ellen Francisco,Sunshiney,Swanky and Moo Moo,Syncopate,Tangerine,Terminal Dosis Light,The Girl Next Door,Tinos,Ubuntu,Ultra,Unkempt,UnifrakturCook,UnifrakturMaguntia,Vibur,Vollkorn,VT323,Waiting for the Sunrise,Wallpoet,Walter Turncoat,Yanone Kaffeesatz</item_options>
+    <item_sort>117</item_sort>
+  </row>
+  <row>
+    <id>118</id>
+    <item_id>phead_font_weight_select</item_id>
+    <item_title>Page Header font - weight</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>normal,bold,bolder,lighter,100,200,300,400,500,600,700,800,900</item_options>
+    <item_sort>118</item_sort>
+  </row>
+<row>
+    <id>119</id>
+    <item_id>phead_font_style_select</item_id>
+    <item_title>Page Header font - style</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>italic</item_options>
+    <item_sort>119</item_sort>
+  </row>
+  <row>
+    <id>120</id>
+    <item_id>phead_font_shadow</item_id>
+    <item_title>Page Header font shadow</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>disable</item_options>
+    <item_sort>120</item_sort>
+  </row>
+  
+  <row>
+    <id>88</id>
+    <item_id>contact</item_id>
+    <item_title>Contact form</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>88</item_sort>
+  </row>
+  <row>
+    <id>89</id>
+    <item_id>c_email</item_id>
+    <item_title>Contact email</item_title>
+    <item_desc>Address where the emails will be sent.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>89</item_sort>
+  </row>
+    <row>
+    <id>90</id>
+    <item_id>contact_fields</item_id>
+    <item_title>Select fields to display in contact form</item_title>
+    <item_desc>Address where the emails will be sent.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>name,email,telephone,subject,message</item_options>
+    <item_sort>90</item_sort>
+  </row>
+    <row>
+    <id>135</id>
+    <item_id>success_msg</item_id>
+    <item_title>Success message</item_title>
+    <item_desc></item_desc>
+    <item_type>textarea</item_type>
+    <item_options></item_options>
+    <item_sort>135</item_sort>
+  </row>
+    <row>
+    <id>136</id>
+    <item_id>error_msg</item_id>
+    <item_title>Error message</item_title>
+    <item_desc></item_desc>
+    <item_type>textarea</item_type>
+    <item_options></item_options>
+    <item_sort>136</item_sort>
+  </row>
+  <row>
+    <id>91</id>
+    <item_id>bubble</item_id>
+    <item_title>Bubble Icon</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>91</item_sort>
+	</row>
+	<row>
+    <id>92</id>
+    <item_id>bubble_hide</item_id>
+    <item_title>Hide bubble icon</item_title>
+    <item_desc>This icons is displayed only on mobile/ipad devices</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>on</item_options>
+    <item_sort>92</item_sort>
+</row>
+<row>
+    <id>93</id>
+    <item_id>phoneicon</item_id>
+    <item_title>Phone application - icon url</item_title>
+    <item_desc></item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>93</item_sort>
+</row>
+<row>
+    <id>94</id>
+    <item_id>bubble_animin</item_id>
+    <item_title>In animation</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>drop,bubble,fade</item_options>
+    <item_sort>94</item_sort>
+</row>
+<row>
+    <id>95</id>
+    <item_id>bubble_animout</item_id>
+    <item_title>Out animation</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>drop,bubble,fade</item_options>
+    <item_sort>95</item_sort>
+</row>
+<row>
+    <id>96</id>
+    <item_id>bubble_delay</item_id>
+    <item_title>Miliseconds from page load before the balloon appears</item_title>
+    <item_desc>default : 2000</item_desc>
+    <item_type>input</item_type>
+    <item_options>10</item_options>
+    <item_sort>96</item_sort>
+</row>
+<row>
+    <id>97</id>
+    <item_id>bubble_lifespan</item_id>
+    <item_title>Miliseconds before it is automatically destroyed </item_title>
+    <item_desc>default : 5000</item_desc>
+    <item_type>input</item_type>
+    <item_options>10</item_options>
+    <item_sort>97</item_sort>
+</row>
+<row>
+    <id>98</id>
+    <item_id>bubble_bottom</item_id>
+    <item_title>Distance of the balloon from bottom</item_title>
+    <item_desc>default : 14</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>98</item_sort>
+</row>
+<row>
+    <id>99</id>
+    <item_id>bubble_expire</item_id>
+    <item_title>Minutes to wait before showing the popup again</item_title>
+    <item_desc>default : 8</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>99</item_sort>
+</row>
+<row>
+    <id>100</id>
+    <item_id>bubble_dispload</item_id>
+    <item_title>Disable loading of balloon</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>yes,no</item_options>
+    <item_sort>100</item_sort>
+</row>
+<row>
+    <id>101</id>
+    <item_id>bubble_icon</item_id>
+    <item_title>Display the touch icon</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>yes,no</item_options>
+    <item_sort>101</item_sort>
+</row>
+<row>
+    <id>102</id>
+    <item_id>bubble_arrow</item_id>
+    <item_title>Display the balloon arrow</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>yes,no</item_options>
+    <item_sort>102</item_sort>
+</row>
+<row>
+    <id>103</id>
+    <item_id>bubble_iterations</item_id>
+    <item_title>Iterations</item_title>
+    <item_desc>Internal/debug use; default : 100</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>103</item_sort>
+</row>
+  <row>
+    <id>104</id>
+    <item_id>css</item_id>
+    <item_title>Extra CSS</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>104</item_sort>
+	</row>
+    <row>
+    <id>105</id>
+    <item_id>extra_css</item_id>
+    <item_title>Add Extra CSS</item_title>
+    <item_desc></item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>105</item_sort>
+</row>
+
+</wp_custom_option_tree>

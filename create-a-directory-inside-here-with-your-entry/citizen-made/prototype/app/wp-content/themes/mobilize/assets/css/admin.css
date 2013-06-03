@@ -1,0 +1,5 @@
+#my_special_div span,#my_special_div2 span{background:#F5F5F5;padding:5px;border:solid 1px #DFDFDF;margin:10px 10px 0;width:75px;float:left;border-radius:5px;height:75px;}
+#my_special_div .special_img,#my_special_div2 .special_img{width:70px; height:70px;}
+#my_special_div,#my_special_div2{overflow-y:scroll;width:85%;height:300px;background:white;border:1px solid #DFDFDF; float:left;}
+#my_special_div .xicon,#my_special_div2 .xicon{background:url('../images/xicon.jpg') no-repeat; width:8px;height:8px;border:none;cursor:pointer;position:relative;margin-right:-15px;margin-top: -5px ;float:right;}
+li.ui-state-active{background:#fff;}

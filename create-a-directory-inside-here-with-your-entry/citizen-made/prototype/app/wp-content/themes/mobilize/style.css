@@ -1,0 +1,403 @@
+/*
+Theme Name: Mobilize
+Theme URI: http://mobilize.beantowndesign.com/
+Author: Fialovy & BeantownDesign
+Author URI: http://themeforest.net/user/BeantownDesign/portfolio
+Description: With an easy to customize responsive layout packed with features, you’ll have your new mobile site up in no time with Mobilize!
+Version: 2.5
+Tags: custom-colors, custom-header, theme-options
+License: GNU General Public License
+License URI: license.txt
+*/
+
+.wp-caption {
+}
+.wp-caption-text {
+}
+.sticky {
+}
+.gallery-caption {
+}
+.bypostauthor {
+}
+html {
+	
+}
+
+body {
+}
+
+#canvas {
+	width: 768px;
+	margin: 0 auto;
+}
+
+#header {
+	margin: 0 0 10px 0;
+}
+/** the heading and tagline are h1 on homepage and h4 on internal */
+#header h1, #header h4 {
+	font-size: 30px;
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+/** the tagline is a span within the h1 or h4 */
+#header h1 span, #header h4 span {
+}
+
+/**
+ Nav and Subnav
+ Split these out if you want the two levels to look different
+ */
+#nav, #subNav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#subNav {
+	margin-top: 10px;
+}
+#nav li, #subNav li {
+	display: inline;
+	padding: 0 10px 0 0;
+}
+/* Currently selected page nav item (and parent) if applicable */
+.current_page_item a, .current_page_parent a {
+	text-decoration: none;
+}
+.current_page_item a:hover, .current_page_parent a:hover {
+	text-decoration: underline;
+}
+
+/**      main content     */
+#primaryContent {
+	width: 540px;
+	float: left;
+	padding: 0 20px 0 0;
+	margin: 0;
+}
+#primaryContent h1 {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+#primaryContent h2 {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+/* titles are h2 on homepage and h1 for internal */
+#primaryContent h1.postTitle, #primaryContent h2.postTitle {
+	font-size: 22px;
+}
+
+#primaryContent h3 {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+ol#posts {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.postWrapper, div.postWrapper {
+}
+
+.postWrapper img {
+}
+
+div.post {
+}
+
+p.postMeta {
+}
+
+#pagination {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#pagination li {
+	display: inlne;
+}
+#pagination .previous {
+	text-align: left;
+	float: left;
+}
+#pagination .future {
+	text-align: right;
+	float: right;
+}
+
+/**       sidebar          */
+#secondaryContent {
+	width: 200px;
+	float: left;
+}
+#secondaryContent h3 {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+/**
+ Remove bullets from the first level sidebar UL and give each item some bottom margin.
+ IE 6 doesn't like the selectors, I can live with that but if you can't then
+ you'll need to extend this further.
+ */
+#secondaryContent > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#secondaryContent > ul > li {
+	margin: 0 0 10px 0;
+}
+
+/** the HTML is a bit dodgy for the tag cloud, need to add some padding
+ between the title and the first href */
+.widget_tag_cloud a {
+	padding-left: 5px;
+}
+
+#comment {
+	width: 500px;
+}
+
+#footer {
+	clear: both;
+	font-size: 80%;
+}
+
+/** normally hidden but will appear when css disabled */
+.skip, .noCss {
+	position: absolute;
+	left: -9999px;
+}
+
+/**
+ theme requirements as per
+ http://codex.wordpress.org/CSS
+ */
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+#listview {
+	margin-bottom: 0px;
+}
+
+.blog_navigation a.active span.ui-btn-text {
+	color: #ffffff;
+}
+.padd-title {
+	margin-top: 15px;
+}
+.custom-icons {
+	margin-bottom: 10px;
+}
+.one_half {
+	width: 49.5%;
+}
+.one_third {
+	width: 32.66%;
+}
+.two_third {
+	width: 66.34%;
+}
+.one_half, .one_third, .two_third {
+	position: relative;
+	margin-right: 1%;
+	float: left;
+}
+.last {
+	margin-right: 0 !important;
+	clear: right;
+}
+.clearboth {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width: 100%;
+}
+/* Success and error message */
+.success_message, .error_message, .warning_message, .info_message {
+	padding: 10px;
+	margin-bottom: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.success_message {
+	background: rgba(148,250,130,0.4);
+	border: 1px solid #B6FCA9;
+}
+.error_message {
+	background: rgba(254,227,227,0.6);
+	border: 1px solid #FCD4D4;
+}
+.warning_message {
+	background: rgba(237,250,115,0.5);
+	border: 1px solid #FCEDAE;
+}
+.info_message {
+	background: rgba(197,250,238,0.5);
+	border: 1px solid #CCFCF2;
+}
+.success_message h2, .error_message h2, .warning_message h2, .info_message h2 {
+	margin: 0;
+	padding: 5px 0 5px 50px;
+}
+.success_message h2 {
+	background: url(assets/images/icons/checkmark.png) left no-repeat;
+	color: #186E09;
+}
+.error_message h2 {
+	background: url(assets/images/icons/error.png) left no-repeat;
+	color: #DB3B3B;
+}
+.warning_message h2 {
+	background: url(assets/images/icons/imp.png) left no-repeat;
+	color: #7A6E27;
+}
+.info_message h2 {
+	background: url(assets/images/icons/info.png) left no-repeat;
+	color: #0376A3;
+}
+/*testimonial*/
+.testimonial {
+	position: relative;
+}
+.testimonial .testimonial-box {
+	position: relative;
+	background: #eee;
+	padding: 12px 15px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+}
+.testimonial .testimonial-arrow {
+	border-color: #eee transparent;
+	border-style: solid;
+	border-width: 12px 12px 0px 0px;
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: -12px;
+	left: 20px;
+	z-index: 9;
+}
+.testimonial .testimonial-arrow-border {
+	border-color: #ddd transparent;
+	border-style: solid;
+	border-width: 14px 14px 0px 0px;
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: -14px;
+	left: 19px;
+	z-index: 8;
+}
+.testimonial .testimonial-author {
+	margin-top: 15px;
+	color: #444;
+}
+
+.twtr-user,.twtr-hd,.twtr-ft{display:none;}
+.twtr-tweet{
+	padding:10px;
+	margin: 0 10px;
+	border-bottom:1px solid #000000 !important;
+}
+
+.twtr-widget,.twtr-widget p,.twtr-widget a,.twtr-timestamp{font-size:13px;font-family:'Droid Sans',sans-serif !important;text-shadow:0 1px #000000 !important;}
+.twtr-widget a[rel="nofollow"]{
+		text-decoration:underline !important;
+		font-weight:bold !important;
+}
+
+.twtr-timestamp{
+	color:#ffffff !important;
+	font-style:italic;
+	font-size:11px !important;
+}
+.commentlist input, .commentlist textarea{color:#fff;}
+.commentlist .ui-li-heading{padding-left:9px;position:relative;}
+
+.commentlist .ui-li-heading .ui-li-heading{padding:0;margin-top:0;margin-bottom:5px;}
+ul.commentlist > li.comment > div.comment-container{margin-top:-10px;min-height:87px;}
+.commentlist .readon{float:right;margin-right:10px;margin-top:-15px}
+.commentlist .comment-awaiting-moderation{font-size:12px;font-weight:normal;}
+.commentlist .comment,.commentlist .comment-container{height:auto;overflow:visible !important;position:relative;}
+.commentlist .comment_title{margin-bottom:15px;font-size:16px;font-weight:bold;margin-top:0px;}
+#commentlist{padding-left:0px;}
+li.commentlist,li.comment{text-decoration:none !important; margin:0;color:#ffffff;text-shadow:0 1px 1px #111111;padding:9px 9px 0 9px;list-style:none;}
+#respond textarea#comment{width:100%}
+ul.children{padding-left:0px}
+ul.children li{padding:0px;}
+ul.children li a.comment-reply-link{display:none;}
+ul.children li .ui-li-aside{margin-right:0px;}
+ul.children li div.comment-container{padding:0.8em 15px;}
+.wrapperr{height:auto;overflow: visible;}
+a.comment-reply-link, a#cancel-comment-reply-link{text-decoration:none;}
+.commentlist .ui-li-desc{white-space:normal !important;}
+.commentlist .ui-li-aside{margin-top:0px;font-style:italic;margin-right:15px;white-space:nowrap !important;}
+.commentlist .comment-container{height:auto;}
+.ui-li-aside{padding-right:1px;}
+.thumbnail-list ul.ui-listview li a.ui-link-inherit{padding:0 0 0 100px !important;min-height:88px;}
+.avatar{float:left;position:relative;}
+
+.ui-li-aside {
+    float: right;
+    margin: 0.3em 0;
+    margin-right:-5px !important;
+    text-align: right;
+    width: 27% !important;
+}
+
+.ui-li-desc {
+    display: block ;
+    font-size: 12px ;
+    font-weight: normal ;
+    margin: -0.1em 0 0.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right:20px;
+}
+.thumbnail-list .ui-li-thumb{max-height:80px !important;}
+.blog_info{font-weight:bold; font-size:14px;}
+.blog_info a{text-decoration:none;}
+.post blockquote{margin:0px;}
+
+.ui-corner-all {overflow:hidden}
+li.ui-li-divider {
+
+-webkit-border-bottom-right-radius: 0px !important;
+-webkit-border-bottom-left-radius: 0px !important;
+
+-moz-border-radius-bottomright: 0px !important;
+-moz-border-radius-bottomleft: 0px !important;
+
+border-bottom-right-radius: 0px !important;
+border-bottom-left-radius: 0px !important;  
+
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+    background: linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+
+}

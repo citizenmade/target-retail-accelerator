@@ -1,0 +1,691 @@
+/*
+Theme Name:     Custom Target
+Theme URI:      http://target.citizenmade.co/
+Description:    Custom theme for Target app built on Mobilize theme
+Author:         Matt Unger
+Author URI:     http://mattunger.com
+Template:       mobilize                             
+Version:        1000.0.0
+*/
+
+@import url("../mobilize/style.css");
+
+/* html */
+
+html{
+	background-color: #464646;
+	margin-top: 0px !important;
+}
+
+.ui-mobile, .ui-mobile body{
+	height: 100%;
+}
+
+#menu, #home-page{
+	position: fixed;
+}
+
+/*prevent side scrolling */
+
+body.ui-mobile-viewport, div.ui-mobile-viewport, .ui-mobile-viewport{
+	overflow: hidden !important;
+	overflow-x: hidden;
+}
+
+#menu, #home-page{
+	/* position: fixed; */
+}
+
+#home-page{
+	border-top: 4px solid #cc0000;
+}
+
+/* hide WP admin bar */
+
+#wpadminbar { display: none; }
+
+/* clear */
+
+.clear:before,
+.clear:after {
+   content:"";
+   display:table;
+}
+.clear:after {
+   clear:both;
+}
+
+/* custom font */
+@font-face { 
+ font-family: Gotham;
+ src: url(/wp-content/themes/custom/assets/Gotham/Gotham-Light.otf);
+} 
+
+@font-face { 
+ font-family: Gotham-Medium;
+ src: url(/wp-content/themes/custom/assets/Gotham/Gotham-Book.otf);
+} 
+
+@font-face { 
+ font-family: Gotham-Bold;
+ src: url(/wp-content/themes/custom/assets/Gotham/Gotham-Medium.otf);
+} 
+
+html, body { 
+ font-family:Gotham,Verdana,Arial !important; 
+ text-shadow: none !important;
+}
+
+/* icon styles */
+
+.ui-header .ui-btn-inner{
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	height: 30px;
+	width: 35px;
+}
+
+.ui-header .ui-icon{
+	background-color: transparent;
+	/*background-image: url(/wp-content/themes/custom/assets/images/icon-sprites.png);*/
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+.ui-icon-menu-icon{
+	width: 26px;
+	height: 22px;
+	background-image: url(/wp-content/themes/custom/assets/images/icon-sprites.png);
+	background-position: -200px 0px !important;
+	margin-top: 2px !important;
+}
+
+.ui-icon-left-arrow{
+	width: 24px;
+	height: 24px;
+	background-image: url(/wp-content/themes/custom/assets/images/nav-icons/left-arrow.png);
+	margin-top: 3px !important;
+}
+
+.ui-icon-cart{
+	background-image: url(/wp-content/themes/custom/assets/images/nav-icons/cart.png);
+	width: 24px;
+	height: 24px;
+	margin-right: 10px !important;
+	margin-top: 2px !important;
+}
+	
+/* header styles */
+
+.logo img { width: 30px; padding: 7px; }
+
+.shadow1box { display: none; }
+
+h2.pageTitle { background: transparent; border-bottom: transparent; color: black; }
+
+.page-header { background: #cc0000; border: transparent; }
+
+.ui-header { box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+
+.ui-header .ui-btn-up-a, .ui-header .ui-btn-up-a:hover { background: transparent; border: transparent; }
+
+.ui-icon-shadow, .ui-bar-a .ui-shadow { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+.ui-header .ui-btn-inner { background: transparent; }
+
+/* button style */
+
+.ui-btn-corner-all{
+	border-radius: 24px;
+}
+
+.ui-btn-up-c, .ui-btn-up-c:hover, .ui-btn-corner-all:hover{
+	border: transparent;
+	background: transparent;
+}
+
+.ui-btn-inner {
+	padding: 0px !important;
+	overflow: hidden;
+    background: -moz-linear-gradient(#FB2627, #CF0502 65%) repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(#FB2627, #CF0502 65%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FB2627), to(#CF0502));
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FB2627), to(#CF0502));
+	border: transparent;
+}
+
+.ui-content .ui-btn-inner{
+	border: 2px solid #FFFFFF;
+	box-shadow: 0 0 3px #CCCCCC;
+}
+
+.ui-btn-icon-left .ui-btn-text{
+	margin-left:-20px;
+}
+
+/* footer style */
+
+.ui-footer .ui-btn-inner{
+	background: #383838;
+}
+
+.ui-footer{ border: transparent; box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.6); }
+
+/* left menu style */
+
+#menu{
+	height: 100%;
+	width: 275px;
+	top:0;
+	text-shadow: none;
+	font-size: 14px;
+	background: #464646 url(/wp-content/themes/custom/assets/images/target-bg-bottom.png) no-repeat center bottom;
+	border-top: 4px solid #2a2a2a;
+	position: absolute;
+}
+
+.top-search{
+	background-color: #2a2a2a;
+	text-align: center;
+	min-height: 40px;
+}
+
+.top-search input[type="text"]{
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	width: 80%;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 9px;
+	box-shadow: none;
+	height: 20px;
+	padding-left: 25px;
+	background: white url(/wp-content/themes/custom/assets/images/search-icon.png) no-repeat 5px;
+}
+
+#nestedAccordion{
+	width:100%;
+	font-family:Gotham-Medium,Verdana,Arial !important; 
+}
+#nestedAccordion h2, #nestedAccordion h3, 
+#nestedAccordion div{
+	/* reset styles for accordion */
+	margin:0;
+	padding:0;
+	font-size:1em;
+	font-weight:normal;
+	list-style:circle;
+	color:white;
+}
+#nestedAccordion div{
+	display:none;
+	overflow:hidden;
+}
+#nestedAccordion h2{
+	cursor:pointer;
+	padding:15px 10px;
+	background-color: #464646;
+	color: white;
+}
+#nestedAccordion h3{
+	cursor:pointer;
+	padding:15px 10px;
+	background-color: #993333;
+}
+#nestedAccordion h3 + div{
+	background-color: #cc0000;
+}
+
+#nestedAccordion h3 + div a{
+	color: white;
+	text-decoration: none;
+	font-style: italic;
+	float:left;
+	clear:both;
+	padding:15px 10px;
+	border-bottom: 1px solid #993333;
+	width:100%;
+}
+
+#nestedAccordion h3 + div a:last-child{
+	border: transparent;
+}
+
+/* style used for good scrolling */
+
+html {
+	-ms-touch-action: none;
+}
+
+.ui-header-fixed, .ui-footer-fixed{
+	position: absolute;
+}
+
+.ui-header-fixed{
+	top: 0;
+	height: 43px;
+}
+
+.ui-footer-fixed{
+	bottom: 0;
+	height: 40px;
+}
+
+#wrapper{
+	position: absolute;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+	top: 43px;
+	bottom: 40px;
+	width: 100%;
+	background-color: #e6e6e6;
+}
+
+.scroll, .scroll-y, .scroll-x {
+    -webkit-overflow-scrolling: touch;
+}
+.scroll > *, .scroll-y > *, .scroll-x > * {
+    -webkit-transform : translateZ(0);
+}
+.scroll { overflow: auto; }
+.scroll-y { overflow-y: auto; }
+.scroll-x { overflow-x: auto; }
+
+/* body style */
+
+body{
+	overflow:hidden;
+}
+
+.pages{
+	box-shadow: -3px 0px 3px rgba(0, 0, 0, .6);
+}
+
+.ui-body-c, .ui-dialog.ui-overlay-c{
+	background: #ffffff;
+}
+
+.menu{
+	display: none;
+}
+
+.slider-outer{
+	display:none;
+}
+
+/* footer */
+
+.ui-btn-up-b, .ui-btn-hover-b{
+	border: transparent;
+}
+
+.ui-footer .ui-icon{
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	margin-top: 5px;
+}
+
+.custom-icons .ui-btn .ui-icon{
+	margin-left: -12px !important;
+}
+
+#home-custom .ui-icon{
+	background: url(/wp-content/themes/custom/assets/images/nav-icons/home-g.png) no-repeat center center;
+	width: 24px !important;
+	height: 24px !important;
+}
+
+#place .ui-icon{
+	background: url(/wp-content/themes/custom/assets/images/nav-icons/geo-g.png) no-repeat center center;
+	width: 24px !important;
+	height: 24px !important;
+}
+
+#scan .ui-icon{
+	background: url(/wp-content/themes/custom/assets/images/nav-icons/barcode-g.png) no-repeat center center;
+	width: 24px !important;
+	height: 24px !important;
+}
+
+#tags .ui-icon{
+	background: url(/wp-content/themes/custom/assets/images/nav-icons/tag-g.png) no-repeat center center;
+	width: 24px !important;
+	height: 24px !important;
+}
+
+#user .ui-icon{
+	background: url(/wp-content/themes/custom/assets/images/nav-icons/user-g.png) no-repeat center center;
+	width: 24px !important;
+	height: 24px !important;
+}
+
+/* photo */
+
+.prodImage img{
+	width: 110px;
+	height:110px;
+}
+
+.prodImage{
+	width: 110px;
+	height: 110px;
+	text-align: center;
+	padding: 10px;
+	background-color: white;
+}
+
+.pull-left{
+	float: left;
+}
+
+/* disqus plugin */
+
+#disqus_thread{
+	overflow: hidden;
+	clear:both;
+	padding: 0 10px;
+}
+
+/* lookbook gallery */
+
+#loadBook, .loadBook{
+	margin: auto;
+	color: #555555;
+}
+
+.LBmain{
+	overflow-y: hidden;
+	overflow-x: scroll;
+	height: 261px;
+	max-width: 100%;
+	background-color:white;
+}
+
+.LBmain h3{
+	margin-top: 90px;
+}
+
+.topHalf, .bottomHalf{
+	height:130px;
+	margin:auto;
+}
+
+.topHalf{
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.content-padd{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: auto;
+	width: 100%;
+	max-width: 500px !important;
+}
+
+/* lookbook title */
+
+.LBtitle{
+	background-color: #ceaecc;
+	text-align: left;
+}
+
+.LBtitle a{
+	text-decoration: none;
+}
+
+ .LBwidget{
+	height: 7px;
+	width: 100%;
+	background: url(/wp-content/themes/custom/assets/images/down-arrow-purple.png) no-repeat 55px top;
+	margin-bottom: -7px;
+	position: fixed;
+	z-index: 100;
+}
+
+.LBtitle h4{
+	font-style: italic;
+	color: white;
+	margin: 0px;
+	padding: 7px;
+	text-indent: 15px;
+}
+
+/* lookbook popularity */
+
+.popular ul{
+	display: inline;
+	padding: 5px;
+}
+
+.popular li{
+	list-style: none;
+	padding-right: 10px;
+	padding-left: 18px;
+	margin-right: 5px;
+	border-right: 1px dotted #8c8c8c;
+	color: #8c8c8c;
+	display: inline;
+	font-weight: bold;
+}
+
+.popular li:last-child{
+	padding-right:0px;
+	margin-right:0px;
+	border-right: transparent;
+}
+
+.popular{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+
+li.heart{
+	background: url(/wp-content/themes/custom/assets/images/heart-icon.png) no-repeat left 4px;
+}
+
+li.plus{
+	background: url(/wp-content/themes/custom/assets/images/plus-icon.png) no-repeat left 4px;
+}
+
+li.speak{
+	background: url(/wp-content/themes/custom/assets/images/comment-icon.png) no-repeat left 4px;
+}
+
+/* lookbook author */
+
+.LBauthor{
+	height: 72px;
+	margin-bottom: 10px;
+	margin-left: 22px;
+}
+
+.authorPic{
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	overflow: hidden;
+	height: 72px;
+	width: 72px;
+}
+
+.authorDetail{
+	float: left;
+	height: 60px;
+	margin-left: 15px;
+	padding: 6px 0px;
+}
+
+.authorDetail h4{
+	margin: 4px;
+	margin-top: 2px;
+}
+
+.authorDetail h6{
+	margin: 4px;
+	margin-top: 10px;
+}
+
+h4.name{
+	font-family: Gotham-Bold,Verdana,Arial !important;;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 18px;
+}
+
+/* single product page */
+
+.singleItem img{
+	width: 100%;
+	height: auto;
+}
+
+.singleItem{
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+	padding: 0px !important;
+}
+
+.loneProduct{
+	border-top: 1px solid #ccc;
+	padding-top: 15px;
+}
+
+.found1{
+	float: left;
+	font-size: 22px;
+	color: #555555;
+	margin-left: 10px !important;
+}
+
+.found2{
+	float: right;
+	width: 200px;
+}
+
+.foundIt p{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* button fixing */
+.ui-shadow{
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.content-padd .ui-btn-inner{
+	box-shadow: none;
+	border: transparent !important;
+	width: 150px;
+	padding: 10px 5px !important;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+body{
+	color: #555555;
+}
+
+.ui-btn{
+	display: inline;
+}
+
+.ui-btn-hidden{
+
+}
+
+.foundIt .ui-btn{
+	float:right;
+	margin: -5px 10px 25px 0;
+}
+
+.threeButtonsContain{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.threeButtons .threeB{
+	background: -moz-linear-gradient(#FB2627, #CF0502 65%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(#FB2627, #CF0502 65%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FB2627), to(#CF0502));
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FB2627), to(#CF0502));
+	border: transparent;
+	width: 75px;
+	padding: 10px 10px !important;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: white !important;
+	text-decoration: none;
+	margin-left: 5px !important;
+	float: left;
+	margin: auto;
+}
+
+.threeButtons .threeB:first-child{
+	margin-left: 0px !important;
+}
+
+.threeButtons a{
+	color: white !important;
+	text-decoration: none;
+}
+
+.threeButtons{
+	text-align: center;
+		display:inline-block;
+}
+
+/* modal window */
+
+/* Z-index of #mask must lower than #boxes .window */
+#mask {
+  position:absolute;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:fixed;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+
+
+/* Customize your modal window here, you can add background image too */
+#boxes #dialog {
+  width:375px; 
+  height:203px;
+}
+
+/* rush */
+
+.prodNamePrice{
+	margin-left: 10px;
+}
+
+.weakSpan{
+	font-family: Gotham,Verdana,Arial !important;
+}
+
+.relName{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	font-style: italic;
+	font-family: Gotham-bold,Verdana,Arial !important;
+	color: #555555;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
